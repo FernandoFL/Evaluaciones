@@ -12,7 +12,6 @@ public class PelucheController {
 
     @RequestMapping("")
     public String mostrarPeluche(@ModelAttribute("peluche") Peluche peluche) {
-
         return "peluche.jsp";
     }
 

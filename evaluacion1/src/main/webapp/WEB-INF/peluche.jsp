@@ -16,15 +16,15 @@
 
             <body>
                 <div class="container">
-                    <form:form method="post" modelAtrribute="peluche">
-                        <form:label class="form-label" path="nombre">Nombre</form:label>
-                        <form:input type="text" class="form-control" path="nombre"></form:input>
+                    <form:form action="/peluche/guardar" method="post" modelAtrribute="peluche">
+                        <form:label path="nombre" class="form-label">Nombre</form:label>
+                        <form:input type="text" class="form-control" path="nombre" />
                         <br>
                         <form:label class="form-label" path="color">Color</form:label>
-                        <form:input type="text" class="form-control" path="color"></form:input>
+                        <form:input type="text" class="form-control" path="color" />
                         <br>
                         <form:label class="form-label" path="tamano">Tamaño</form:label>
-                        <form:input type="text" class="form-control" path="tamano"></form:input>
+                        <form:input type="text" class="form-control" path="tamano" />
                         <br>
                         <input type="submit" value="Guardar Peluche">
                     </form:form>
